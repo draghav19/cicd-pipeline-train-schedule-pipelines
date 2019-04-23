@@ -13,7 +13,7 @@ pipeline {
    }
    post {
       success {
-         archiveArtifacts artifacts: 'dist/trainSchedule.zip'
+         archiveArtifacts artifacts: 'dist/trainSchedule.zip',
       }
    }
 }
